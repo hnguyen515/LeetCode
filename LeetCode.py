@@ -44,3 +44,17 @@ class Merge:
 
 # if __name__ == "__main__":
 #   main()
+
+
+class Remove:
+    def __init__(self) -> None:
+        pass
+  
+    def rmv_elm(nums, val):
+        i = 0;
+        while i < len(nums):
+          if nums[i] == val:
+            nums.remove(val);
+          else:
+            i = i+1;
+        return nums
